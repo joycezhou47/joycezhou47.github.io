@@ -1,0 +1,63 @@
+
+#header p{
+	text-align: center;
+}
+
+ul{
+	float: center;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    background-color: hotpink;
+}
+
+li{
+	display: inline;
+	padding: 8px;
+}
+
+a {
+	display: inline-block;
+	background-color: hotpink;
+	color: black;
+	text-decoration: none;
+	padding: 3px;
+	text-align: center;
+}
+
+li a:hover{
+	background-color: lightgreen;
+}
+
+#name{
+	font-size: 30px;
+	padding-top: 10px;
+}
+
+
+#everything{
+	position: relative;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+
+@media(max-aspect-ratio:1/1){
+	body{
+		width:80%;
+	}
+}
+
+
+html {
+	background:white;
+}
+body {
+	background: pink;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 95%;
+  	
+}
